@@ -6,7 +6,7 @@ import HistoricalWeather from './components/HistoricalWeather'
 import MarineWeather from './components/MarineWeather'
 import './App.css'
 
-const API_KEY = '8739ea5047bccff7e65185624f890b91'
+const API_KEY = '67dc2bffa5c364bbee04691150541321'
 const BASE_URL = 'http://api.weatherstack.com'
 
 function App() {

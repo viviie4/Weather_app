@@ -18,9 +18,9 @@
 .header h1 {
   font-size: 2.5rem;
   font-weight: 700;
-  color: #5a5fa3; /* soft lavender text */
+  color: #4b3f72; /* darker pastel lavender for readability */
   margin-bottom: 20px;
-  text-shadow: 0 2px 6px rgba(90, 95, 163, 0.2);
+  text-shadow: 0 2px 6px rgba(75, 63, 114, 0.3);
 }
 
 .main-content {
@@ -30,7 +30,7 @@
 .loading-container {
   text-align: center;
   padding: 60px 20px;
-  color: #6b6fae;
+  color: #5a5195;
 }
 
 .loading-container p {
@@ -43,25 +43,25 @@
   text-align: center;
   margin: 20px auto;
   max-width: 500px;
-  background: #ffffffcc;
+  background: rgba(255, 255, 255, 0.45);
   border-radius: 16px;
-  box-shadow: 0 8px 20px rgba(150, 160, 255, 0.15);
+  box-shadow: 0 8px 25px rgba(120, 130, 255, 0.2);
 }
 
 .error-container h3 {
-  color: #d16ba5; /* pastel pinkish error */
+  color: #c47fbf; /* pastel pinkish error */
   margin-bottom: 15px;
   font-size: 1.5rem;
 }
 
 .error-container p {
   margin-bottom: 20px;
-  color: #555;
+  color: #444; /* soft dark for readability */
 }
 
 .error-container button {
   background: linear-gradient(135deg, #cdb4ff 0%, #bde0fe 100%);
-  color: #4a4a4a;
+  color: #3b3b3b; /* dark text for contrast */
   border: none;
   padding: 12px 24px;
   border-radius: 25px;
@@ -72,7 +72,7 @@
 
 .error-container button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 14px rgba(180, 190, 255, 0.4);
+  box-shadow: 0 6px 14px rgba(180, 190, 255, 0.45);
 }
 
 @media (max-width: 768px) {

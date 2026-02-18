@@ -6,7 +6,11 @@
 .weather-card {
   padding: 40px;
   margin-bottom: 20px;
-  color: white;
+  color: #000; /* black text */
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 25px rgba(150, 150, 255, 0.2);
 }
 
 .location-info {
@@ -18,17 +22,20 @@
   font-size: 2rem;
   font-weight: 700;
   margin-bottom: 5px;
+  color: #000; /* black */
 }
 
 .location-info p {
   font-size: 1.1rem;
-  opacity: 0.9;
+  opacity: 0.85;
   margin-bottom: 5px;
+  color: #000; /* black */
 }
 
 .local-time {
   font-size: 0.95rem;
   opacity: 0.8;
+  color: #000; /* black */
 }
 
 .main-weather {
@@ -54,6 +61,7 @@
   font-size: 4rem;
   font-weight: 300;
   line-height: 1;
+  color: #000; /* black */
 }
 
 .temp-unit {
@@ -61,12 +69,13 @@
   font-weight: 300;
   margin-top: 5px;
   opacity: 0.8;
+  color: #000; /* black */
 }
 
 .weather-icon img {
   width: 80px;
   height: 80px;
-  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.2));
 }
 
 .weather-description {
@@ -77,15 +86,17 @@
   font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: 10px;
+  color: #000; /* black */
 }
 
 .weather-description p {
   font-size: 1.1rem;
-  opacity: 0.9;
+  opacity: 0.85;
+  color: #000; /* black */
 }
 
 .weather-details {
-  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
   padding-top: 30px;
 }
 
@@ -100,19 +111,22 @@
   justify-content: space-between;
   align-items: center;
   padding: 15px 20px;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(180, 180, 255, 0.25);
   border-radius: 15px;
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(8px);
+  color: #000; /* black */
 }
 
 .detail-label {
   font-size: 0.95rem;
   opacity: 0.8;
+  color: #000; /* black */
 }
 
 .detail-value {
   font-size: 1.1rem;
   font-weight: 600;
+  color: #000; /* black */
 }
 
 @media (max-width: 768px) {

@@ -19,22 +19,23 @@ body {
 
 /* Glassmorphism - light version */
 .glass {
-  background: rgba(255, 255, 255, 0.35);
+  background: rgba(255, 255, 255, 0.4); /* slightly more opaque for readability */
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-radius: 20px;
-  border: 1px solid rgba(200, 200, 255, 0.3);
-  box-shadow: 0 10px 25px rgba(180, 190, 255, 0.25);
+  border: 1px solid rgba(200, 200, 255, 0.35);
+  box-shadow: 0 10px 30px rgba(180, 190, 255, 0.25);
+  color: #3b3b3b;
 }
 
 /* Glassmorphism - dark version (soft pastel) */
 .glass-dark {
-  background: rgba(90, 95, 163, 0.35);
+  background: rgba(75, 63, 114, 0.35);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-radius: 20px;
   border: 1px solid rgba(255, 255, 255, 0.2);
-  box-shadow: 0 10px 25px rgba(120, 130, 255, 0.3);
+  box-shadow: 0 10px 30px rgba(120, 130, 255, 0.3);
   color: white;
 }
 
