@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body & global font */
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #eef2ff 0%, #f8edff 100%);
+  min-height: 100vh;
+  color: #444; /* soft dark for readability */
+}
+
+/* Root container */
+#root {
+  min-height: 100vh;
+}
+
+/* Glassmorphism - light version */
+.glass {
+  background: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(200, 200, 255, 0.3);
+  box-shadow: 0 10px 25px rgba(180, 190, 255, 0.25);
+}
+
+/* Glassmorphism - dark version (soft pastel) */
+.glass-dark {
+  background: rgba(90, 95, 163, 0.35);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 10px 25px rgba(120, 130, 255, 0.3);
+  color: white;
+}
+
+/* Loading spinner - pastel version */
+.spinner {
+  border: 4px solid rgba(180, 190, 255, 0.3);
+  border-radius: 50%;
+  border-top: 4px solid #bde0fe;
+  width: 40px;
+  height: 40px;
+  animation: spin 2s linear infinite;
+  margin: 20px auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Responsive design tweaks */
+@media (max-width: 768px) {
+  .glass, .glass-dark {
+    margin: 10px;
+    border-radius: 15px;
+  }
+}
